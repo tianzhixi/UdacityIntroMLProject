@@ -1,0 +1,16 @@
+Web sites:
+http://www.nltk.org/howto/stem.html
+https://en.wikipedia.org/wiki/F1_score
+http://scikit-learn.org/stable/modules/generated/sklearn.grid_search.GridSearchCV.html
+http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html
+
+books:N/A
+
+forums:
+https://discussions.udacity.com/t/where-to-create-new-features/32160
+
+blog posts:N/A
+
+github repositories:
+https://github.com/udacity/ud120-projects
