@@ -23,8 +23,8 @@ from tester import dump_classifier_and_data
 ### Selected features by feature importances.
 features_list = ['poi', 'salary', 'deferral_payments', 'total_payments', 'bonus', 'deferred_income', 
 'total_stock_value', 'expenses', 'exercised_stock_options', 'other', 
-'long_term_incentive', 'restricted_stock', 'to_messages', 'from_messages', 
-'from_this_person_to_poi', 'shared_receipt_with_poi', "from_to_poi"]
+'long_term_incentive', 'restricted_stock', 'to_messages', 'from_poi_to_this_person', 'from_messages', 
+'from_this_person_to_poi', 'shared_receipt_with_poi']
 
 
 
@@ -123,10 +123,10 @@ labels, features = targetFeatureSplit(data)
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 
 ### I set random_state=42 to have reproducible result.
-rfc = RandomForestClassifier(n_estimators=10, criterion='gini', max_depth=None, 
-                             min_samples_split=2, min_samples_leaf=1,
-                             max_features='auto', max_leaf_nodes=None, bootstrap=True, 
-                             oob_score=False, n_jobs=1, random_state=42, verbose=0)
+#rfc = RandomForestClassifier(n_estimators=10, criterion='gini', max_depth=None, 
+#                             min_samples_split=2, min_samples_leaf=1,
+#                             max_features='auto', max_leaf_nodes=None, bootstrap=True, 
+#                             oob_score=False, n_jobs=1, random_state=42, verbose=0)
 
 ### This line is for GridSearchCV
 #rfc = RandomForestClassifier(random_state=42)

@@ -1,6 +1,7 @@
 Web sites:
 http://www.nltk.org/howto/stem.html
 https://en.wikipedia.org/wiki/F1_score
+https://en.wikipedia.org/wiki/Precision_and_recall
 http://scikit-learn.org/stable/modules/generated/sklearn.grid_search.GridSearchCV.html
 http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html
